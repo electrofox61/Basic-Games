@@ -1,0 +1,32 @@
+﻿<Page x:Class="Games.Matching"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Games"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1400"
+      Title="Matching">
+
+    <Grid>
+        <Button x:Name="Start" Content="Start" HorizontalAlignment="Left" Margin="10,23,0,0" VerticalAlignment="Top" Height="31" Width="86" Click="Start_Click"/>
+        <Grid x:Name="MatchingGrid" Height="400" Width="480" Margin="292,25,108,25">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+    </Grid>
+</Page>
